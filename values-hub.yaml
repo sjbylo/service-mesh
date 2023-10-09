@@ -6,14 +6,12 @@ clusterGroup:
     - open-cluster-management
     - vault
     - golang-external-secrets
-    - config-demo
-    - hello-world
-    - demo
     - travels
     - travel-agency
     - travel-portal
     - travel-control
     - istio-system
+    - hello-world         # Just for imperitive below
 
   subscriptions:
     acm:
@@ -32,9 +30,6 @@ clusterGroup:
 
   projects:
     - hub
-    - config-demo
-    - hello-world
-    - demo
     - travels
     - istio-system
 
@@ -75,17 +70,17 @@ clusterGroup:
       project: hub
       path: common/golang-external-secrets
 
-    config-demo:
-      name: config-demo
-      namespace: config-demo
-      project: config-demo
-      path: charts/all/config-demo
+#    config-demo:
+#      name: config-demo
+#      namespace: config-demo
+#      project: config-demo
+#      path: charts/all/config-demo
 
-    hello-world:
-      name: hello-world
-      namespace: hello-world
-      project: hello-world
-      path: charts/all/hello-world
+#    hello-world:
+#      name: hello-world
+#      namespace: hello-world
+#      project: hello-world
+#      path: charts/all/hello-world
 
   imperative:
     # NOTE: We *must* use lists and not hashes. As hashes lose ordering once parsed by helm
@@ -126,7 +121,7 @@ clusterGroup:
               region: ap-southeast-2
           clusters:
           - One
-          - Two
+       
       #
       #  exampleAzurePool:
       #    name: azure-us
