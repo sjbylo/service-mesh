@@ -55,7 +55,7 @@ clusterGroup:
       name: mesh-control-plane
       namespace: istio-system
       project: istio-system
-      path: chart/all/mesh-control-plane
+      path: charts/all/mesh-control-plane
 
     golang-external-secrets:
       name: golang-external-secrets
