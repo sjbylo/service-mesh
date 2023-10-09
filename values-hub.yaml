@@ -20,6 +20,8 @@ clusterGroup:
       name: kiali-ossm
       namespace: openshift-operators
       channel: stable
+    jaeger-product:
+      name: jaeger-product
 
   projects:
     - hub
