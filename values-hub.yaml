@@ -119,8 +119,7 @@ clusterGroup:
           platform:
             aws:
               region: ap-southeast-2
-          clusters: 
-          - steve1
+          clusters: {}
        
       #
       #  exampleAzurePool:
