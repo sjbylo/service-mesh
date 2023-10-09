@@ -111,15 +111,16 @@ clusterGroup:
       #   credentials and OCP pull secrets are defined in Vault.
       #   See values-secret.yaml.template
       #
-#      clusterPools:
-#        exampleAWSPool:
-#          name: aws-ap
-#          openshiftVersion: 4.12.18
-#          baseDomain: nhwlc.sandbox2571.opentlc.com
-#          platform:
-#            aws:
-#              region: ap-southeast-2
-#          clusters: {}
+      clusterPools:
+        exampleAWSPool:
+          name: aws-ap
+          openshiftVersion: 4.12.36
+          baseDomain: nhwlc.sandbox2571.opentlc.com
+          platform:
+            aws:
+              region: ap-southeast-2
+          clusters: 
+          - steve1
        
       #
       #  exampleAzurePool:
