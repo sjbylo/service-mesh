@@ -22,6 +22,8 @@ clusterGroup:
       channel: stable
     jaeger-product:
       name: jaeger-product
+    servicemeshoperator:
+      name: servicemeshoperator
 
   projects:
     - hub
