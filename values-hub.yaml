@@ -10,6 +10,9 @@ clusterGroup:
     - hello-world
     - demo
     - travels
+    - travel-agency
+    - travel-portal
+    - travel-control
     - istio-system
 
   subscriptions:
