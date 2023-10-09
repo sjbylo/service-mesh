@@ -115,7 +115,7 @@ clusterGroup:
         exampleAWSPool:
           name: aws-ap
           openshiftVersion: 4.12.36
-          baseDomain: cluster-nhwlc.nhwlc.sandbox2571.opentlc.com
+          baseDomain: sandbox2704.opentlc.com
           platform:
             aws:
               region: ap-southeast-2
