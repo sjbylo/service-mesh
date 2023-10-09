@@ -9,6 +9,7 @@ clusterGroup:
     - config-demo
     - hello-world
     - demo
+    - travels
     - istio-system
 
   subscriptions:
