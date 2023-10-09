@@ -65,6 +65,7 @@ clusterGroup:
     travels:
       name: travels
       namespace: travels
+      project: travels
       path: charts/all/travels
 
 
