@@ -31,6 +31,7 @@ clusterGroup:
     - config-demo
     - hello-world
     - demo
+    - travels
     - istio-system
 
   applications:
@@ -56,6 +57,12 @@ clusterGroup:
       namespace: istio-system
       project: istio-system
       path: charts/all/mesh-control-plane
+    
+    travels:
+      name: travels
+      namespace: travels
+      path: charts/all/travels
+
 
     golang-external-secrets:
       name: golang-external-secrets
