@@ -49,11 +49,11 @@ clusterGroup:
       project: hub
       path: common/hashicorp-vault
 
-    mesh:
-      name: mesh-control-plane
-      namespace: istio-system
-      project: istio-system
-      path: charts/all/mesh-control-plane
+#    mesh:
+#      name: mesh-control-plane
+#      namespace: istio-system
+#      project: istio-system
+#      path: charts/all/mesh-control-plane
     
     jobs:
       name: jobs
