@@ -21,8 +21,6 @@ clusterGroup:
       #csv: advanced-cluster-management.v2.6.1
     kiali-ossm:
       name: kiali-ossm
-        #      namespace: openshift-operators
-        #      channel: stable
     jaeger-product:
       name: jaeger-product
     servicemeshoperator:
