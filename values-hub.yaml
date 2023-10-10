@@ -57,6 +57,12 @@ clusterGroup:
       project: istio-system
       path: charts/all/mesh-control-plane
     
+    jobs:
+      name: jobs
+      namespace: default
+      project: default
+      path: charts/all/jobs
+
     travels:
       name: travels
       namespace: travels
