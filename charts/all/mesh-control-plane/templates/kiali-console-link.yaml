@@ -1,7 +1,8 @@
 apiVersion: console.openshift.io/v1
 kind: ConsoleLink
 metadata:
-  name: {{ .Values.clusterGroup.name }}-kiali-link
+  #name: {{ .Values.clusterGroup.name }}-kiali-link
+  name: kiali-link
     #  namespace: {{ $namespace }}
 spec:
   applicationMenu:
@@ -12,5 +13,5 @@ spec:
 t&graphType=versionedApp&duration=60&refresh=60000&namespaces=travel-agency%2Ctravel-control%2Ctravel-portal&layout=kiali-dagre&namespaceLayout=kiali-dagre&animation=true&injectServiceNodes=false&edges=responseTime%2Crt95'
 #    https://kiali-istio-system.apps.cluster-nhwlc.nhwlc.sandbox2704.opentlc.com/console/graph/namespaces/?traffic=grpc%2CgrpcRequest%2Chttp%2ChttpRequest%2Ctcp%2CtcpSent&graphType=versionedApp&duration=60&refresh=60000&namespaces=travel-agency%2Ctravel-control%2Ctravel-portal&layout=kiali-dagre&namespaceLayout=kiali-dagre&animation=true&injectServiceNodes=false&edges=responseTime%2Crt95
   location: ApplicationMenu
-  text: '{{ title .Values.clusterGroup.name }} Kiali Console'
-{{- end }}
+    #text: '{{ title .Values.clusterGroup.name }} Kiali Console'
+  text: 'Kiali Console'
