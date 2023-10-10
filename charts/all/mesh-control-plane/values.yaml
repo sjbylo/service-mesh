@@ -1,5 +1,5 @@
 ---
 global:
   hubClusterDomain: apps.cluster-nhwlc.nhwlc.sandbox2704.opentlc.com
-  localClusterDomain: 
+  localClusterDomain: apps.cluster-nhwlc.nhwlc.sandbox2704.opentlc.com 
 
